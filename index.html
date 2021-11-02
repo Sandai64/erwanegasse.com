@@ -18,33 +18,96 @@
       if (window.location.href.match("http://erwan.sh")) window.location.protocol='https:'
     </script>
   </head>
-  <body class="flex flex-col justify-center items-center">
-    <div class="bg-white rounded-lg shadow p-4 justify-center flex flex-col w-11/12 sm:w-2/4 lg:w-1/4">
-      <div class="flex space-x-4 justify-center">
-        <img src="./assets/svg/github.svg" alt="Github">
-        <img src="./assets/svg/instagram.svg" alt="Instagram">
-        <img src="./assets/svg/twitch.svg" alt="Twitch">
-        <img src="./assets/svg/twitter.svg" alt="Twitter">
+  <body class="flex flex-col items-center justify-center select-none">
+    <div class="flex flex-col justify-center w-11/12 p-4 bg-white rounded-lg shadow-lg sm:w-2/4 lg:w-1/4">
+
+      <!-- Social links -->
+      <div class="flex justify-center space-x-4">
+
+        <!-- Github -->
+        <a
+          href="https://github.com/erwangse"
+          rel="noopener noreferrer"
+          class="default"
+        >
+          <img src="./assets/svg/github.svg" alt="Github">
+        </a>
+
+        <!-- Gitlab -->
+        <a
+          href="https://gitlab.com/erwan_egasse"
+          rel="noopener noreferrer"
+          class="default"
+        >
+          <img src="./assets/svg/gitlab.svg" alt="Gitlab">
+        </a>
+
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/erwan_etait_pris/"
+          rel="noopener noreferrer"
+          class="default"
+        >
+          <img src="./assets/svg/instagram.svg" alt="Instagram">
+        </a>
+
+        <!-- Twitch -->
+        <a
+          href="https://twitch.tv/SandaiCast/"
+          rel="noopener noreferrer"
+          class="default"
+        >
+          <img src="./assets/svg/twitch.svg" alt="Twitch">
+        </a>
+
+        <!-- Twitter -->
+        <a
+          href="https://twitter.com/sandai_again/"
+          rel="noopener noreferrer"
+          class="default"
+        >
+          <img src="./assets/svg/twitter.svg" alt="Twitter">
+        </a>
       </div>
-      <p class="font-extralight text-6xl text-center">erwan.sh</p>
-      <div class="flex-row flex space-x-2 sm:space-x-6 mt-4">
-        <div class="flex-1 shadow rounded-lg bg-black text-white px-2 py-1 text-center">
+
+      <!-- Main title -->
+      <p class="text-6xl text-center font-extralight">erwan.sh</p>
+
+      <!-- Topic links -->
+      <div class="flex flex-row mt-4 space-x-2 sm:space-x-6">
+        <a
+          class="flex-1 px-2 py-1 text-center text-white transition-colors bg-black rounded-lg shadow hover:bg-gray-700"
+          href="#"
+        >
           <p>Blog</p>
-        </div>
-        <div class="flex-1 shadow rounded-lg bg-black text-white px-2 py-1 text-center">
+        </a>
+        <a
+          class="flex-1 px-2 py-1 text-center text-white transition-colors bg-black rounded-lg shadow hover:bg-gray-700"
+          href="#"
+        >
           <p>Resume</p>
-        </div>
-        <div class="flex-1 shadow rounded-lg bg-black text-white px-2 py-1 text-center">
+        </a>
+        <a
+          class="flex-1 px-2 py-1 text-center text-white transition-colors bg-black rounded-lg shadow hover:bg-gray-700"
+          href="https://github.com/erwangse?tab=repositories"
+        >
           <p>Projects</p>
-        </div>
+        </a>
       </div>
     </div>
-    <div class="mt-4 rounded-lg shadow px-3 py-1 text-white bg-cyan-600">
+
+    <!-- Donation link -->
+    <a
+      class="px-3 py-1 mt-4 text-white transition-colors rounded-lg shadow bg-cyan hover:bg-black"
+      href="https://ko-fi.com/sandai"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <p>Support me on Ko-Fi !</p>
-    </div>
+    </a>
     
-    <!-- Preview notice -->
-    <div class="absolute top-0 w-full bg-black shadow text-white px-4 py-2 font-bold">
+    <!-- Website preview notice -->
+    <div class="absolute top-0 w-full px-4 py-2 font-bold text-white bg-black shadow">
       <p class="text-center">This version of the website is not final and is subject to changes.</p>
     </div>
   </body>
