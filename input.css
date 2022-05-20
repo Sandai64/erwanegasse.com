@@ -27,6 +27,8 @@
 }
 
 .nexus-link {
+    display: block;
     text-transform: uppercase;
     text-decoration: underline;
+    width: fit-content;
 }
