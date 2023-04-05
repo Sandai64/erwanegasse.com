@@ -13,7 +13,7 @@ body {
 
     max-width: 768px;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #313131;
 
     font-family: montserrat;
@@ -33,8 +33,8 @@ hr {
 }
 
 .avatar {
-    width: 100%;
-    height: 100%;
+    width: 65%;
+    
     border-radius: 16px;
     border: 1px #313131 solid;
 }
@@ -48,8 +48,8 @@ hr {
 }
 
 .icon {
-    height: 48px;
-    width: 48px;
+    height: 32px;
+    width: 32px;
 }
 
 .footer {
@@ -60,6 +60,7 @@ hr {
 .footer>p {
     text-align: center;
     font-size: 14px;
+    line-height: 1;
 }
 
 .v-center {
@@ -85,22 +86,20 @@ a.nostyle {
     gap: 8px;
 }
 
-/* Media Queries */
-@media (max-width: 981px) {
-    .v-sep {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 16px;
-        flex-grow: 1;
-        width: 100%;
-        align-items: center;
-    }
-
-    .v-sep * {
-        text-align: center;
-    }
+.v-sep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
 }
+
+.v-sep * {
+    text-align: center;
+}
+
 
 @media (min-width: 981px) {
     .v-sep {
@@ -120,5 +119,16 @@ a.nostyle {
     .icon {
         height: 24px;
         width: 24px;
+    }
+
+    .avatar {
+        width: 100%;
+        
+        border-radius: 16px;
+        border: 1px #313131 solid;
+    }
+
+    .v-sep * {
+        text-align: left;
     }
 }
