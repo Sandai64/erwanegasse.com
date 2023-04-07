@@ -94,6 +94,7 @@ a.nostyle {
     flex-grow: 1;
     width: 100%;
     align-items: center;
+    margin-top: -10rem;
 }
 
 .v-sep * {
@@ -110,6 +111,7 @@ a.nostyle {
         flex-grow: 1;
         width: 100%;
         align-items: center;
+        margin-top: -4rem;
     }
 
     body {
@@ -122,7 +124,7 @@ a.nostyle {
     }
 
     .avatar {
-        width: 100%;
+        width: 85%;
         
         border-radius: 16px;
         border: 1px #313131 solid;
