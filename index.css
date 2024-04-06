@@ -19,3 +19,17 @@ a {
 a::before {
     content: '~ ';
 }
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    border: 1px black solid;
+}
+
+.photo-container:hover {
+    background-color: #444;
+    color: white;
+}
