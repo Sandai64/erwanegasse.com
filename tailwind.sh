@@ -1,3 +1,3 @@
 #!/bin/env bash
 
-npx tailwindcss -i ./input.css -o ./output.css --watch
+npx tailwindcss -m -i ./input.css -o ./output.css --watch
