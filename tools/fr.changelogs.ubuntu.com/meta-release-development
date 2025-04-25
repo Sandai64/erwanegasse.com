@@ -1,0 +1,23 @@
+Dist: oracular
+Name: Oracular Oriole
+Version: 24.10
+Date: Thu, 10 October 2024 00:24:10 UTC
+Supported: 1
+Description: This is the 24.10 release
+Release-File: http://fr.archive.ubuntu.com/ubuntu/dists/oracular-updates/Release
+ReleaseNotes: http://fr.archive.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
+ReleaseNotesHtml: http://fr.archive.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
+UpgradeTool: http://fr.archive.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/oracular.tar.gz
+UpgradeToolSignature: http://fr.archive.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/oracular.tar.gz.gpg
+
+Dist: plucky
+Name: Plucky Puffin
+Version: 25.04
+Date: Thu, 17 April 2025 00:25:04 UTC
+Supported: 0
+Description: This is the 25.04 release
+Release-File: http://fr.archive.ubuntu.com/ubuntu/dists/plucky-updates/Release
+ReleaseNotes: http://fr.archive.ubuntu.com/ubuntu/dists/plucky/main/dist-upgrader-all/current/ReleaseAnnouncement
+ReleaseNotesHtml: http://fr.archive.ubuntu.com/ubuntu/dists/plucky/main/dist-upgrader-all/current/ReleaseAnnouncement.html
+UpgradeTool: http://fr.archive.ubuntu.com/ubuntu/dists/plucky/main/dist-upgrader-all/current/plucky.tar.gz
+UpgradeToolSignature: http://fr.archive.ubuntu.com/ubuntu/dists/plucky/main/dist-upgrader-all/current/plucky.tar.gz.gpg

@@ -1,0 +1,23 @@
+Dist: jammy
+Name: Jammy Jellyfish
+Version: 22.04.5 LTS
+Date: Thu, 21 April 2022 22:04:00 UTC
+Supported: 1
+Description: This is the 22.04.5 LTS release
+Release-File: http://fr.archive.ubuntu.com/ubuntu/dists/jammy-updates/Release
+ReleaseNotes: http://fr.archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/DevelReleaseAnnouncement
+ReleaseNotesHtml: http://fr.archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/DevelReleaseAnnouncement.html
+UpgradeTool: http://fr.archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/jammy.tar.gz
+UpgradeToolSignature: http://fr.archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/jammy.tar.gz.gpg
+
+Dist: noble
+Name: Noble Numbat
+Version: 24.04.2 LTS
+Date: Thu, 25 April 2024 00:24:04 UTC
+Supported: 1
+Description: This is the 24.04.2 LTS release
+Release-File: http://fr.archive.ubuntu.com/ubuntu/dists/noble-updates/Release
+ReleaseNotes: http://fr.archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
+ReleaseNotesHtml: http://fr.archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
+UpgradeTool: http://fr.archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/noble.tar.gz
+UpgradeToolSignature: http://fr.archive.ubuntu.com/ubuntu/dists/noble-updates/main/dist-upgrader-all/current/noble.tar.gz.gpg
