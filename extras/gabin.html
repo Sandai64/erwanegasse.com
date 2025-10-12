@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="flex justify-center p-2 select-none lg:p-8">
+        <div
+            class="flex flex-col items-center justify-center w-full gap-4 px-4 py-16 lg:py-40"
+            style="background-image: url('../assets/img/7.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;"
+        >
+            <div class="flex flex-col items-center justify-center gap-2 p-8 text-white bg-black bg-opacity-80 md:min-w-96">
+                <p class="text-sm font-thin">Gabin a encore</p>
+                <p class="text-3xl font-bold"><span id="days"></span> jours</p>
+                <p class="text-sm font-thin">à faire à l'UTBM.</p>
+            </div>
+
+            <progress style="background-color: black;" max="100" value="0" id="progress-percentage"></progress>
+        </div>
+    </div>
+
+    <script>
+        const startDate = new Date('2025-09-04');
+        const endDate = new Date('2026-06-27');
+        const today = new Date();
+
+        const daysElement = document.querySelector('#days');
+        const progressBar = document.querySelector('#progress-percentage');
+
+        const msInDay = 1000 * 60 * 60 * 24;
+        const remainingDays = Math.ceil((endDate - today) / msInDay);
+
+        const totalDuration = endDate - startDate;
+        const elapsed = today - startDate;
+        const progress = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
+
+        daysElement.textContent = remainingDays;
+        progressBar.value = progress;
+    </script>
+</body>
+</html>
