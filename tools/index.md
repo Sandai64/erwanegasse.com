@@ -1,5 +1,3 @@
-# Erwan's handy tools
-
 ### Ubuntu changelogs french mirror
 
 > Although `fr.archive.ubuntu.com` exists, `fr.changelogs.ubuntu.com` doesn't.
