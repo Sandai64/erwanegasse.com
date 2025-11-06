@@ -1,35 +1,7 @@
+html {
+    height: 100vh;
+}
+
 body {
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 18px;
-    color: #444;
-    background-color: #efefef;
-    padding: 0 10px;
-}
-
-h1, h2, h3 {
-    line-height: 1.2;
-}
-
-a {
-    color: #555;
-}
-
-a::before {
-    content: '~ ';
-}
-
-.photo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 12px;
-    border: 1px black solid;
-}
-
-.photo-container:hover {
-    background-color: #444;
-    color: white;
+    height: 100%;
 }
